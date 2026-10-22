@@ -1,1 +1,340 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mood Swing – zásady ochrany soukromí a pravidla používání</title>
+<meta name="description" content="Zásady ochrany soukromí a pravidla používání hry Mood Swing. Privacy policy and terms of use of the Mood Swing game.">
+<style>
+  :root {
+    --bg: #fbf8f3;
+    --card: #ffffff;
+    --text: #23211f;
+    --muted: #6b665f;
+    --line: #e7e1d8;
+    --accent: #e0662c;
+    --accent-soft: #fdeee6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17161a;
+      --card: #201f24;
+      --text: #ecebea;
+      --muted: #a5a19b;
+      --line: #34323a;
+      --accent: #ff9a62;
+      --accent-soft: #33261f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 16px 8px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo { font-size: 40px; line-height: 1; }
+  .brand h1 { margin: 0; font-size: 1.5rem; letter-spacing: -0.01em; }
+  .brand p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+  .lang { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+  .lang button {
+    border: 0; background: transparent; color: var(--muted);
+    padding: 6px 14px; font: inherit; font-size: 0.9rem; cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+  main { max-width: 760px; margin: 0 auto; padding: 8px 16px 48px; }
+  nav.toc {
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 16px 0 24px;
+    font-size: 0.95rem;
+  }
+  nav.toc a { color: var(--text); margin-right: 16px; white-space: nowrap; }
+  section.card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 8px 24px 16px;
+    margin-bottom: 24px;
+  }
+  h2 { font-size: 1.3rem; margin: 20px 0 4px; }
+  h3 { font-size: 1.05rem; margin: 22px 0 4px; }
+  p, li { color: var(--text); }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.93rem; margin: 8px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .scroll { overflow-x: auto; }
+  footer { max-width: 760px; margin: 0 auto; padding: 0 16px 40px; color: var(--muted); font-size: 0.85rem; }
+  body:not(.en) [lang="en"] { display: none; }
+  body.en [lang="cs"] { display: none; }
+  @media (max-width: 520px) { section.card { padding: 4px 16px 12px; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo" aria-hidden="true">😵‍💫</div>
+    <div>
+      <h1>Mood Swing</h1>
+      <p lang="cs">Zásady ochrany soukromí a pravidla používání</p>
+      <p lang="en">Privacy policy and terms of use</p>
+    </div>
+  </div>
+  <div class="lang" role="group" aria-label="Jazyk / Language">
+    <button type="button" data-lang="cs" aria-pressed="true">Čeština</button>
+    <button type="button" data-lang="en" aria-pressed="false">English</button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ ČESKY ============================ -->
+<div lang="cs">
+  <p class="muted">Platné od 22. 10. 2026</p>
+  <nav class="toc">
+    <a href="#soukromi">Ochrana soukromí</a>
+    <a href="#smazani">Smazání dat</a>
+    <a href="#pravidla">Pravidla používání</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section class="card" id="soukromi">
+    <h2>Zásady ochrany soukromí</h2>
+    <p>Tyto zásady popisují, jaké údaje zpracovává mobilní hra <strong>Mood Swing</strong> (dále „hra“), proč a jak můžete svá práva uplatnit. Hru provozuje Martin Palla, vývojář hry Mood Swing (dále „my“), kontakt najdete <a href="#kontakt">na konci stránky</a>.</p>
+    <p>Hru můžete hrát bez registrace a bez zadávání e-mailu nebo skutečného jména. Pokud nepřijmete pravidla používání, hra se vůbec nepřipojí k našemu serveru a hrajete jen offline – žebříčky, jedinečná přezdívka a Dílna (levely od hráčů) jsou pak zamčené.</p>
+
+    <h3>Jaké údaje zpracováváme</h3>
+    <div class="scroll">
+    <table>
+      <tr><th>Údaje</th><th>K čemu</th><th>Kde</th></tr>
+      <tr><td>Postup ve hře, nastavení, mince a vzhledy</td><td>Aby hra pamatovala, kde jste skončili</td><td>Jen ve vašem zařízení</td></tr>
+      <tr><td>Anonymní identifikátor hráče (Firebase Authentication)</td><td>Rozlišení hráčů bez registrace</td><td>Server (Google Firebase)</td></tr>
+      <tr><td>Přezdívka</td><td>Zobrazení v žebříčcích a u vašich levelů; každá přezdívka smí patřit jen jednomu hráči</td><td>Server</td></tr>
+      <tr><td>Počet hvězdiček a čas poslední změny</td><td>Celkový, týdenní a denní žebříček</td><td>Server</td></tr>
+      <tr><td>Zveřejněné levely (mapa, název, nápověda, řešení), počet hraní a hodnocení</td><td>Dílna – sdílení levelů s ostatními hráči</td><td>Server, veřejně viditelné ve hře</td></tr>
+      <tr><td>Nahlášení levelu (kdo nahlásil a důvod)</td><td>Moderování nevhodného obsahu</td><td>Server</td></tr>
+      <tr><td>Statistiky hraní (např. dohrané levely), model zařízení, verze systému, identifikátor instalace aplikace</td><td>Zlepšování hry (Google Analytics for Firebase)</td><td>Google – v EU jen s vaším souhlasem</td></tr>
+      <tr><td>Hlášení o pádech aplikace (technické údaje o chybě a zařízení)</td><td>Oprava chyb (Firebase Crashlytics)</td><td>Google</td></tr>
+      <tr><td>Reklamní identifikátor, IP adresa, údaje o zařízení a interakci s reklamou</td><td>Zobrazení reklam s odměnou (Google AdMob)</td><td>Google</td></tr>
+    </table>
+    </div>
+    <p>Do přezdívky prosím nepište své skutečné celé jméno ani jiné osobní údaje.</p>
+
+    <h3>Reklamy a souhlas</h3>
+    <p>Hra zobrazuje pouze reklamy s odměnou, které si sami vyberete (např. za mince). Reklamy poskytuje Google AdMob. Pokud jste v EU nebo EHP, hra se vás při prvním spuštění zeptá na souhlas formulářem Googlu (UMP). Bez souhlasu se zobrazují jen nepersonalizované reklamy a statistiky Google Analytics jsou vypnuté. Svůj souhlas můžete kdykoli změnit v nastavení hry.</p>
+
+    <h3>Právní základ</h3>
+    <ul>
+      <li><strong>Plnění smlouvy</strong> – provoz žebříčků, přezdívek a Dílny poté, co přijmete pravidla používání.</li>
+      <li><strong>Souhlas</strong> – statistiky a personalizované reklamy (v EU/EHP).</li>
+      <li><strong>Oprávněný zájem</strong> – hlášení pádů pro opravu chyb, moderování obsahu a ochrana proti zneužití.</li>
+    </ul>
+
+    <h3>Kdo údaje zpracovává</h3>
+    <p>Údaje na serveru ukládáme ve službách Google Firebase (Authentication, Cloud Firestore, Analytics, Crashlytics); reklamy zajišťuje Google AdMob. Google může údaje zpracovávat i mimo EU, a to na základě standardních smluvních doložek EU. Více v <a href="https://policies.google.com/privacy" rel="noopener">zásadách ochrany soukromí Googlu</a> a na stránce <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Jak Google používá data z aplikací partnerů</a>. Vaše údaje neprodáváme.</p>
+
+    <h3>Jak dlouho údaje uchováváme</h3>
+    <ul>
+      <li>Přezdívku, hvězdičky a zveřejněné levely, dokud hrajete, nebo dokud nepožádáte o smazání.</li>
+      <li>Level, který stáhnete ze zveřejnění, smažeme hned. Nahlášený level může být skryt nebo smazán.</li>
+      <li>Statistiky a hlášení o pádech po dobu nastavenou ve službách Google Firebase.</li>
+      <li>Údaje v zařízení, dokud hru neodinstalujete nebo nesmažete postup v nastavení.</li>
+    </ul>
+
+    <h3>Děti</h3>
+    <p>Hra není cíleně určena dětem mladším 13 let. Pokud zjistíme, že jsme bez souhlasu rodiče získali údaje dítěte mladšího 13 let (v EU podle místních pravidel), smažeme je. Rodiče nás mohou kontaktovat e-mailem.</p>
+
+    <h3>Vaše práva</h3>
+    <p>Máte právo na přístup ke svým údajům, jejich opravu a výmaz, omezení zpracování, přenositelnost, právo vznést námitku a odvolat souhlas. Pokud máte za to, že údaje zpracováváme v rozporu s předpisy, můžete podat stížnost u dozorového úřadu – v Česku je to <a href="https://uoou.gov.cz" rel="noopener">Úřad pro ochranu osobních údajů</a>.</p>
+  </section>
+
+  <section class="card" id="smazani">
+    <h2>Smazání dat</h2>
+    <ul>
+      <li><strong>Postup v zařízení</strong> smažete ve hře: Nastavení → Smazat postup (nebo odinstalováním hry).</li>
+      <li><strong>Zveřejněný level</strong> můžete kdykoli stáhnout v Dílně.</li>
+      <li><strong>Všechna data na serveru</strong> (přezdívku, žebříčky, levely, hodnocení a nahlášení) smažeme na vaši žádost. Napište na <a class="mail" href="#">e-mail</a> a uveďte svou přezdívku ve hře. Žádost vyřídíme do 30 dnů.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="pravidla">
+    <h2>Pravidla používání</h2>
+    <p>Přijetím pravidel ve hře souhlasíte s následujícím:</p>
+    <ul>
+      <li>Hru používáte pro osobní zábavu a neporušujete zákony ani práva ostatních.</li>
+      <li>Nezveřejňujte sprostý, urážlivý, nenávistný, sexuální, násilný ani zkopírovaný obsah – ani v přezdívce, názvu či nápovědě levelu, ani jako obrázek nakreslený z bloků v mapě.</li>
+      <li>Nepoužívejte cizí jména, značky ani obsah chráněný autorským právem bez svolení.</li>
+      <li>Nezneužívejte chyby hry, nemanipulujte se žebříčky a nepokoušejte se narušit server.</li>
+      <li>Za obsah, který zveřejníte, odpovídáte vy. Zveřejněním nám dáváte bezplatné, nevýhradní svolení tento obsah ve hře zobrazovat ostatním hráčům, dokud ho nestáhnete.</li>
+      <li>Nevhodný level nebo přezdívku může kdokoli nahlásit. Po několika nahlášeních se level automaticky skryje. Obsah, který porušuje pravidla, můžeme skrýt nebo smazat a hráči můžeme omezit přístup k online funkcím.</li>
+      <li>Hra se může měnit, online funkce mohou být dočasně nedostupné. Hru poskytujeme „tak, jak je“, v rozsahu, jaký zákon dovoluje.</li>
+      <li>Mince a vzhledy ve hře nemají skutečnou peněžní hodnotu a nelze je směnit za peníze.</li>
+      <li>Pravidla můžeme změnit. Při podstatné změně vás hra požádá o nový souhlas.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Martin Palla – vývojář hry Mood Swing<br>E-mail: <a class="mail" href="#">e-mail</a></p>
+  </section>
+</div>
+
+<!-- ============================ ENGLISH ============================ -->
+<div lang="en">
+  <p class="muted">Effective from 22 October 2026</p>
+  <nav class="toc">
+    <a href="#privacy">Privacy</a>
+    <a href="#delete">Data deletion</a>
+    <a href="#terms">Terms of use</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="card" id="privacy">
+    <h2>Privacy policy</h2>
+    <p>This policy explains what data the mobile game <strong>Mood Swing</strong> (the “game”) processes, why, and how you can exercise your rights. The game is operated by Martin Palla, the developer of Mood Swing (“we”); contact details are <a href="#contact">at the end of this page</a>.</p>
+    <p>You can play without registering and without giving us your e-mail or real name. If you do not accept the terms of use, the game never connects to our server and you play offline only – leaderboards, the unique nickname and the Workshop (player-made levels) stay locked.</p>
+
+    <h3>What data we process</h3>
+    <div class="scroll">
+    <table>
+      <tr><th>Data</th><th>Purpose</th><th>Where</th></tr>
+      <tr><td>Game progress, settings, coins and skins</td><td>So the game remembers where you left off</td><td>Only on your device</td></tr>
+      <tr><td>Anonymous player identifier (Firebase Authentication)</td><td>Telling players apart without registration</td><td>Server (Google Firebase)</td></tr>
+      <tr><td>Nickname</td><td>Shown in leaderboards and with your levels; each nickname can belong to one player only</td><td>Server</td></tr>
+      <tr><td>Number of stars and time of last change</td><td>All-time, weekly and daily leaderboards</td><td>Server</td></tr>
+      <tr><td>Published levels (map, name, hint, solution), play count and ratings</td><td>Workshop – sharing levels with other players</td><td>Server, publicly visible in the game</td></tr>
+      <tr><td>Level reports (who reported and why)</td><td>Moderating inappropriate content</td><td>Server</td></tr>
+      <tr><td>Gameplay statistics (e.g. completed levels), device model, OS version, app instance ID</td><td>Improving the game (Google Analytics for Firebase)</td><td>Google – in the EU only with your consent</td></tr>
+      <tr><td>Crash reports (technical data about the error and device)</td><td>Fixing bugs (Firebase Crashlytics)</td><td>Google</td></tr>
+      <tr><td>Advertising ID, IP address, device data and ad interactions</td><td>Showing rewarded ads (Google AdMob)</td><td>Google</td></tr>
+    </table>
+    </div>
+    <p>Please do not use your real full name or other personal information as your nickname.</p>
+
+    <h3>Ads and consent</h3>
+    <p>The game only shows rewarded ads that you choose to watch (for example for coins). Ads are provided by Google AdMob. If you are in the EU/EEA, the game asks for your consent on first launch using Google’s consent form (UMP). Without consent, only non-personalised ads are shown and Google Analytics is turned off. You can change your choice at any time in the game settings.</p>
+
+    <h3>Legal basis</h3>
+    <ul>
+      <li><strong>Performance of a contract</strong> – running leaderboards, nicknames and the Workshop after you accept the terms of use.</li>
+      <li><strong>Consent</strong> – analytics and personalised ads (in the EU/EEA).</li>
+      <li><strong>Legitimate interest</strong> – crash reports to fix bugs, content moderation and abuse prevention.</li>
+    </ul>
+
+    <h3>Who processes the data</h3>
+    <p>Server data is stored with Google Firebase (Authentication, Cloud Firestore, Analytics, Crashlytics); ads are provided by Google AdMob. Google may process data outside the EU on the basis of the EU Standard Contractual Clauses. See the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a>. We do not sell your data.</p>
+
+    <h3>How long we keep data</h3>
+    <ul>
+      <li>Nickname, stars and published levels – while you play or until you ask us to delete them.</li>
+      <li>A level you withdraw is deleted immediately. A reported level may be hidden or deleted.</li>
+      <li>Analytics and crash reports – for the period set in Google Firebase.</li>
+      <li>Data on your device – until you uninstall the game or delete your progress in the settings.</li>
+    </ul>
+
+    <h3>Children</h3>
+    <p>The game is not directed at children under 13. If we learn that we have collected data from a child under 13 (or under the age set by local law in the EU) without parental consent, we will delete it. Parents can contact us by e-mail.</p>
+
+    <h3>Your rights</h3>
+    <p>You have the right to access, rectify and erase your data, to restrict processing, to data portability, to object, and to withdraw consent. If you believe we process data unlawfully, you may lodge a complaint with a supervisory authority – in the Czech Republic, the <a href="https://uoou.gov.cz" rel="noopener">Office for Personal Data Protection (ÚOOÚ)</a>.</p>
+  </section>
+
+  <section class="card" id="delete">
+    <h2>Data deletion</h2>
+    <ul>
+      <li><strong>Progress on your device</strong> – in the game: Settings → Delete progress (or uninstall the game).</li>
+      <li><strong>A published level</strong> – you can withdraw it in the Workshop at any time.</li>
+      <li><strong>All data on our server</strong> (nickname, leaderboards, levels, ratings and reports) – we delete it on request. E-mail <a class="mail" href="#">e-mail</a> with your in-game nickname. We handle requests within 30 days.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="terms">
+    <h2>Terms of use</h2>
+    <p>By accepting the terms in the game you agree to the following:</p>
+    <ul>
+      <li>You use the game for personal entertainment and do not break the law or the rights of others.</li>
+      <li>Do not publish vulgar, offensive, hateful, sexual, violent or copied content – not in your nickname, level name or hint, and not as a picture drawn from blocks in a map.</li>
+      <li>Do not use other people’s names, brands or copyrighted content without permission.</li>
+      <li>Do not exploit bugs, manipulate leaderboards or try to disrupt the server.</li>
+      <li>You are responsible for content you publish. By publishing it you give us a free, non-exclusive permission to show it to other players in the game until you withdraw it.</li>
+      <li>Anyone can report an inappropriate level or nickname. After several reports a level is hidden automatically. We may hide or delete content that breaks these terms and restrict a player’s access to online features.</li>
+      <li>The game may change and online features may be temporarily unavailable. The game is provided “as is” to the extent permitted by law.</li>
+      <li>Coins and skins have no real monetary value and cannot be exchanged for money.</li>
+      <li>We may change these terms. If the change is significant, the game will ask for your consent again.</li>
+    </ul>
+  </section>
+
+  <section class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Martin Palla – developer of Mood Swing<br>E-mail: <a class="mail" href="#">e-mail</a></p>
+  </section>
+</div>
+
+</main>
+
+<footer>
+  <span lang="cs">© 2026 Martin Palla · Mood Swing</span>
+  <span lang="en">© 2026 Martin Palla · Mood Swing</span>
+</footer>
+
+<script>
+  // ===== Kontaktní e-mail – doplňte sem (jen na tomto jednom místě) =====
+  var EMAIL = 'pallamartas@seznam.cz';
+
+  document.querySelectorAll('a.mail').forEach(function (a) {
+    a.textContent = EMAIL;
+    a.href = 'mailto:' + EMAIL;
+  });
+
+  var enAnchors = ['privacy', 'delete', 'terms', 'contact'];
+  var csAnchors = ['soukromi', 'smazani', 'pravidla', 'kontakt'];
+
+  function setLang(lang) {
+    document.body.classList.toggle('en', lang === 'en');
+    document.documentElement.lang = lang;
+    document.title = lang === 'en'
+      ? 'Mood Swing – privacy policy and terms of use'
+      : 'Mood Swing – zásady ochrany soukromí a pravidla používání';
+    document.querySelectorAll('.lang button').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.lang === lang));
+    });
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+
+  document.querySelectorAll('.lang button').forEach(function (b) {
+    b.addEventListener('click', function () { setLang(b.dataset.lang); });
+  });
+
+  // Jazyk: ?lang=en / #privacy… → angličtina, #soukromi… → čeština,
+  // jinak dřívější volba, jinak jazyk prohlížeče.
+  var q = new URLSearchParams(location.search).get('lang');
+  var hash = location.hash.replace('#', '');
+  var saved = null;
+  try { saved = localStorage.getItem('lang'); } catch (e) {}
+  var lang = q === 'en' || q === 'cs' ? q
+    : enAnchors.indexOf(hash) >= 0 ? 'en'
+    : csAnchors.indexOf(hash) >= 0 ? 'cs'
+    : saved || ((navigator.language || 'cs').toLowerCase().indexOf('cs') === 0 ? 'cs' : 'en');
+  setLang(lang);
+  if (hash) { var t = document.getElementById(hash); if (t) t.scrollIntoView(); }
+</script>
+</body>
+</html>
 
