@@ -107,7 +107,7 @@
 
 <!-- ============================ ČESKY ============================ -->
 <div lang="cs">
-  <p class="muted">Platné od 22. 10. 2026</p>
+  <p class="muted">Platné od 7. 11. 2026 (předchozí verze z 22. 10. 2026)</p>
   <nav class="toc">
     <a href="#soukromi">Ochrana soukromí</a>
     <a href="#smazani">Smazání dat</a>
@@ -118,14 +118,16 @@
   <section class="card" id="soukromi">
     <h2>Zásady ochrany soukromí</h2>
     <p>Tyto zásady popisují, jaké údaje zpracovává mobilní hra <strong>Mood Swing</strong> (dále „hra“), proč a jak můžete svá práva uplatnit. Hru provozuje Martin Palla, vývojář hry Mood Swing (dále „my“), kontakt najdete <a href="#kontakt">na konci stránky</a>.</p>
-    <p>Hru můžete hrát bez registrace a bez zadávání e-mailu nebo skutečného jména. Pokud nepřijmete pravidla používání, hra se vůbec nepřipojí k našemu serveru a hrajete jen offline – žebříčky, jedinečná přezdívka a Dílna (levely od hráčů) jsou pak zamčené.</p>
+    <p>Hru můžete hrát bez registrace a bez zadávání e-mailu nebo skutečného jména. Přihlášení účtem Google je dobrovolné a slouží jen k záloze a obnovení postupu. Pokud nepřijmete pravidla používání, hra se vůbec nepřipojí k našemu serveru a hrajete jen offline – žebříčky, jedinečná přezdívka a Dílna (levely od hráčů) jsou pak zamčené.</p>
 
     <h3>Jaké údaje zpracováváme</h3>
     <div class="scroll">
     <table>
       <tr><th>Údaje</th><th>K čemu</th><th>Kde</th></tr>
-      <tr><td>Postup ve hře, nastavení, mince a vzhledy</td><td>Aby hra pamatovala, kde jste skončili</td><td>Jen ve vašem zařízení</td></tr>
-      <tr><td>Anonymní identifikátor hráče (Firebase Authentication)</td><td>Rozlišení hráčů bez registrace</td><td>Server (Google Firebase)</td></tr>
+      <tr><td>Postup ve hře, nastavení, mince a vzhledy</td><td>Aby hra pamatovala, kde jste skončili</td><td>Ve vašem zařízení</td></tr>
+      <tr><td>Identifikátor hráče (Firebase Authentication) – bez přihlášení anonymní</td><td>Rozlišení hráčů</td><td>Server (Google Firebase)</td></tr>
+      <tr><td>Jen při přihlášení účtem Google: e-mail a jméno účtu Google (případně odkaz na profilový obrázek), které Firebase Authentication převezme od Googlu</td><td>Přihlášení k vašemu účtu ve hře, i v jiném zařízení</td><td>Server (Google Firebase)</td></tr>
+      <tr><td>Jen při přihlášení účtem Google: záloha postupu (hvězdičky, mince, vzhledy, rozpracované levely, přezdívka) a čas uložení</td><td>Obnovení hry po přeinstalaci nebo v jiném zařízení</td><td>Server (Google Firebase)</td></tr>
       <tr><td>Přezdívka</td><td>Zobrazení v žebříčcích a u vašich levelů; každá přezdívka smí patřit jen jednomu hráči</td><td>Server</td></tr>
       <tr><td>Počet hvězdiček a čas poslední změny</td><td>Celkový, týdenní a denní žebříček</td><td>Server</td></tr>
       <tr><td>Zveřejněné levely (mapa, název, nápověda, řešení), počet hraní a hodnocení</td><td>Dílna – sdílení levelů s ostatními hráči</td><td>Server, veřejně viditelné ve hře</td></tr>
@@ -135,14 +137,14 @@
       <tr><td>Reklamní identifikátor, IP adresa, údaje o zařízení a interakci s reklamou</td><td>Zobrazení reklam s odměnou (Google AdMob)</td><td>Google</td></tr>
     </table>
     </div>
-    <p>Do přezdívky prosím nepište své skutečné celé jméno ani jiné osobní údaje.</p>
+    <p>Do přezdívky prosím nepište své skutečné celé jméno ani jiné osobní údaje. Ostatní hráči vidí jen vaši přezdívku – nikdy e-mail ani jméno z účtu Google. Hrát můžete anonymně (bez účtu), nebo s účtem Google; volbu nabídne hra při prvním spuštění a účet můžete připojit i později v nastavení.</p>
 
     <h3>Reklamy a souhlas</h3>
     <p>Hra zobrazuje pouze reklamy s odměnou, které si sami vyberete (např. za mince). Reklamy poskytuje Google AdMob. Pokud jste v EU nebo EHP, hra se vás při prvním spuštění zeptá na souhlas formulářem Googlu (UMP). Bez souhlasu se zobrazují jen nepersonalizované reklamy a statistiky Google Analytics jsou vypnuté. Svůj souhlas můžete kdykoli změnit v nastavení hry.</p>
 
     <h3>Právní základ</h3>
     <ul>
-      <li><strong>Plnění smlouvy</strong> – provoz žebříčků, přezdívek a Dílny poté, co přijmete pravidla používání.</li>
+      <li><strong>Plnění smlouvy</strong> – provoz žebříčků, přezdívek a Dílny poté, co přijmete pravidla používání, a záloha postupu, pokud se přihlásíte účtem Google.</li>
       <li><strong>Souhlas</strong> – statistiky a personalizované reklamy (v EU/EHP).</li>
       <li><strong>Oprávněný zájem</strong> – hlášení pádů pro opravu chyb, moderování obsahu a ochrana proti zneužití.</li>
     </ul>
@@ -152,7 +154,7 @@
 
     <h3>Jak dlouho údaje uchováváme</h3>
     <ul>
-      <li>Přezdívku, hvězdičky a zveřejněné levely, dokud hrajete, nebo dokud nepožádáte o smazání.</li>
+      <li>Přezdívku, hvězdičky, zveřejněné levely, účet a zálohu postupu, dokud hrajete, nebo dokud je nesmažete ve hře či nepožádáte o smazání.</li>
       <li>Level, který stáhnete ze zveřejnění, smažeme hned. Nahlášený level může být skryt nebo smazán.</li>
       <li>Statistiky a hlášení o pádech po dobu nastavenou ve službách Google Firebase.</li>
       <li>Údaje v zařízení, dokud hru neodinstalujete nebo nesmažete postup v nastavení.</li>
@@ -170,7 +172,8 @@
     <ul>
       <li><strong>Postup v zařízení</strong> smažete ve hře: Nastavení → Smazat postup (nebo odinstalováním hry).</li>
       <li><strong>Zveřejněný level</strong> můžete kdykoli stáhnout v Dílně.</li>
-      <li><strong>Všechna data na serveru</strong> (přezdívku, žebříčky, levely, hodnocení a nahlášení) smažeme na vaši žádost. Napište na <a href="mailto:pallamartas@seznam.cz">pallamartas@seznam.cz</a> a uveďte svou přezdívku ve hře. Žádost vyřídíme do 30 dnů.</li>
+      <li><strong>Účet a všechna data na serveru</strong> smažete přímo ve hře: Nastavení → Smazat účet a data (u hráčů bez účtu Google „Smazat moje data na serveru“). Smaže se účet, záloha postupu, přezdívka, záznamy v žebříčcích a zveřejněné levely.</li>
+      <li>O smazání (včetně hodnocení a nahlášení) můžete požádat i e-mailem: napište na <a href="mailto:pallamartas@seznam.cz">pallamartas@seznam.cz</a> a uveďte svou přezdívku ve hře. Žádost vyřídíme do 30 dnů.</li>
     </ul>
   </section>
 
@@ -198,7 +201,7 @@
 
 <!-- ============================ ENGLISH ============================ -->
 <div lang="en">
-  <p class="muted">Effective from 22 October 2026</p>
+  <p class="muted">Effective from 7 November 2026 (previous version of 22 October 2026)</p>
   <nav class="toc">
     <a href="#privacy">Privacy</a>
     <a href="#delete">Data deletion</a>
@@ -209,14 +212,16 @@
   <section class="card" id="privacy">
     <h2>Privacy policy</h2>
     <p>This policy explains what data the mobile game <strong>Mood Swing</strong> (the “game”) processes, why, and how you can exercise your rights. The game is operated by Martin Palla, the developer of Mood Swing (“we”); contact details are <a href="#contact">at the end of this page</a>.</p>
-    <p>You can play without registering and without giving us your e-mail or real name. If you do not accept the terms of use, the game never connects to our server and you play offline only – leaderboards, the unique nickname and the Workshop (player-made levels) stay locked.</p>
+    <p>You can play without registering and without giving us your e-mail or real name. Signing in with a Google account is optional and is only used to back up and restore your progress. If you do not accept the terms of use, the game never connects to our server and you play offline only – leaderboards, the unique nickname and the Workshop (player-made levels) stay locked.</p>
 
     <h3>What data we process</h3>
     <div class="scroll">
     <table>
       <tr><th>Data</th><th>Purpose</th><th>Where</th></tr>
-      <tr><td>Game progress, settings, coins and skins</td><td>So the game remembers where you left off</td><td>Only on your device</td></tr>
-      <tr><td>Anonymous player identifier (Firebase Authentication)</td><td>Telling players apart without registration</td><td>Server (Google Firebase)</td></tr>
+      <tr><td>Game progress, settings, coins and skins</td><td>So the game remembers where you left off</td><td>On your device</td></tr>
+      <tr><td>Player identifier (Firebase Authentication) – anonymous unless you sign in</td><td>Telling players apart</td><td>Server (Google Firebase)</td></tr>
+      <tr><td>Only if you sign in with Google: the e-mail and name of your Google account (and possibly a profile picture link) that Firebase Authentication receives from Google</td><td>Signing you in to your game account, also on another device</td><td>Server (Google Firebase)</td></tr>
+      <tr><td>Only if you sign in with Google: a backup of your progress (stars, coins, skins, unfinished levels, nickname) and the time it was saved</td><td>Restoring the game after reinstalling or on another device</td><td>Server (Google Firebase)</td></tr>
       <tr><td>Nickname</td><td>Shown in leaderboards and with your levels; each nickname can belong to one player only</td><td>Server</td></tr>
       <tr><td>Number of stars and time of last change</td><td>All-time, weekly and daily leaderboards</td><td>Server</td></tr>
       <tr><td>Published levels (map, name, hint, solution), play count and ratings</td><td>Workshop – sharing levels with other players</td><td>Server, publicly visible in the game</td></tr>
@@ -226,14 +231,14 @@
       <tr><td>Advertising ID, IP address, device data and ad interactions</td><td>Showing rewarded ads (Google AdMob)</td><td>Google</td></tr>
     </table>
     </div>
-    <p>Please do not use your real full name or other personal information as your nickname.</p>
+    <p>Please do not use your real full name or other personal information as your nickname. Other players only see your nickname – never the e-mail or name of your Google account. You can play anonymously (without an account) or with a Google account; the game offers the choice on first launch and you can also link an account later in the settings.</p>
 
     <h3>Ads and consent</h3>
     <p>The game only shows rewarded ads that you choose to watch (for example for coins). Ads are provided by Google AdMob. If you are in the EU/EEA, the game asks for your consent on first launch using Google’s consent form (UMP). Without consent, only non-personalised ads are shown and Google Analytics is turned off. You can change your choice at any time in the game settings.</p>
 
     <h3>Legal basis</h3>
     <ul>
-      <li><strong>Performance of a contract</strong> – running leaderboards, nicknames and the Workshop after you accept the terms of use.</li>
+      <li><strong>Performance of a contract</strong> – running leaderboards, nicknames and the Workshop after you accept the terms of use, and backing up your progress if you sign in with Google.</li>
       <li><strong>Consent</strong> – analytics and personalised ads (in the EU/EEA).</li>
       <li><strong>Legitimate interest</strong> – crash reports to fix bugs, content moderation and abuse prevention.</li>
     </ul>
@@ -243,7 +248,7 @@
 
     <h3>How long we keep data</h3>
     <ul>
-      <li>Nickname, stars and published levels – while you play or until you ask us to delete them.</li>
+      <li>Nickname, stars, published levels, your account and progress backup – while you play, or until you delete them in the game or ask us to delete them.</li>
       <li>A level you withdraw is deleted immediately. A reported level may be hidden or deleted.</li>
       <li>Analytics and crash reports – for the period set in Google Firebase.</li>
       <li>Data on your device – until you uninstall the game or delete your progress in the settings.</li>
@@ -261,7 +266,8 @@
     <ul>
       <li><strong>Progress on your device</strong> – in the game: Settings → Delete progress (or uninstall the game).</li>
       <li><strong>A published level</strong> – you can withdraw it in the Workshop at any time.</li>
-      <li><strong>All data on our server</strong> (nickname, leaderboards, levels, ratings and reports) – we delete it on request. E-mail <a href="mailto:pallamartas@seznam.cz">pallamartas@seznam.cz</a> with your in-game nickname. We handle requests within 30 days.</li>
+      <li><strong>Your account and all data on our server</strong> – delete them directly in the game: Settings → Delete account and data (players without a Google account: “Delete my data on the server”). This deletes your account, progress backup, nickname, leaderboard entries and published levels.</li>
+      <li>You can also request deletion (including ratings and reports) by e-mail: write to <a href="mailto:pallamartas@seznam.cz">pallamartas@seznam.cz</a> with your in-game nickname. We handle requests within 30 days.</li>
     </ul>
   </section>
 
